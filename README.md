@@ -16,9 +16,17 @@ SF-BiLSTM: https://inass.org/wp-content/uploads/2022/06/2022103141-2.pdf
 NBSVM: https://www.sciencedirect.com/science/article/pii/S0969698921003374
 
 ## Ejecución Modelo SF-BiLSTM
-Iniciamos el procedimiento colocando las librerías necesarias para la ejecución 
+Se inicia el procedimiento colocando las librerías necesarias para la ejecución 
 
 ![image](https://github.com/natalymogollon/Capstone---G11/assets/50871642/9b2a49a4-b3c6-4e1a-a322-b2c9d452a35e)
 
+Y se procede a utilizar un código para importar el dataset en formato CSV y cargarlo a la carpeta de Google Colab. Se debe comprobar que el archivo se cargó correctamente.
+
+![image](https://github.com/natalymogollon/Capstone---G11/assets/50871642/449641c4-4ddd-4a49-ae95-fef6c2505887)
+![image](https://github.com/natalymogollon/Capstone---G11/assets/50871642/7d26594e-7b84-4b16-90de-ebd369f04553)
+
+Se debe asignar el dataset a una variable para poder efectuar el análisis en el código posteriormente
+
+![image](https://github.com/natalymogollon/Capstone---G11/assets/50871642/ad055a4b-485c-42b3-8bdc-be98cec26b5f)
 
 
