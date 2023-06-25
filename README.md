@@ -25,8 +25,39 @@ Y se procede a utilizar un código para importar el dataset en formato CSV y car
 ![image](https://github.com/natalymogollon/Capstone---G11/assets/50871642/449641c4-4ddd-4a49-ae95-fef6c2505887)
 ![image](https://github.com/natalymogollon/Capstone---G11/assets/50871642/7d26594e-7b84-4b16-90de-ebd369f04553)
 
-Se debe asignar el dataset a una variable para poder efectuar el análisis en el código posteriormente
+Se debe asignar el dataset a una variable para poder efectuar el análisis en el código posteriormente, y para corrobar la carga correcta, hacemos un print a la cantidad de reviews consideradas.
 
 ![image](https://github.com/natalymogollon/Capstone---G11/assets/50871642/ad055a4b-485c-42b3-8bdc-be98cec26b5f)
+
+Se inicia una nueva sección el código a implementar para realizar el método SF-BiLSTM 
+
+![image](https://github.com/natalymogollon/Capstone---G11/assets/50871642/88f498e9-f19f-4651-970f-5ed30639dfa9)
+
+Los componentes clave utilizados en esta parte fueron considerados por diferentes razones:
+
+- Embedding layer: Esta capa se utiliza para representar palabras o tokens en forma de vectores densos. Aprende representaciones vectoriales de palabras en función de su contexto y proximidad semántica.
+- Bidirectional LSTM layer: Esta capa utiliza la arquitectura LSTM, que es una variante de las redes neuronales recurrentes (RNN). Al ser bidireccional, la capa LSTM procesa la secuencia tanto en dirección directa como inversa, lo que permite capturar el contexto pasado y futuro de cada palabra.
+- SpatialDropout1D layer: Esta capa de Dropout se aplica a las secuencias en lugar de a las neuronas individuales.
+- Dense layer: Es una capa densamente conectada que toma las representaciones de secuencia generadas por la capa Bi-LSTM y las proyecta en una salida final. En este caso, se utiliza una función de activación softmax para clasificar las secuencias en diferentes categorías.
+
+![image](https://github.com/natalymogollon/Capstone---G11/assets/50871642/cbafd3c9-a6ee-4190-b3b4-5aab711a436c)
+
+Se procede con la compilación y evaluación de datos con lo ingresado previamente, para finalmente arrojar los siguientes resultados:
+
+![image](https://github.com/natalymogollon/Capstone---G11/assets/50871642/d656106c-1bdb-41f0-bfa2-c9723b1a4a69)
+
+Los resultados obtenidos en las métricas indican el desempeño del modelo de detección de reseñas falsas en base a los datos de prueba:
+
+Accuracy (exactitud): El modelo tiene una exactitud de 0.6674, lo que significa que clasifica correctamente aproximadamente el 66.74% de las muestras.
+
+Precision (precisión): El modelo tiene una precisión de 0.6621, lo que indica que aproximadamente el 66.21% de las predicciones positivas (detecciones de reseñas falsas) son correctas.
+
+Recall (recuperación): En este caso, el modelo tiene un recall de 0.6674, lo que significa que logra encontrar y clasificar correctamente aproximadamente el 66.74% de las reseñas falsas en el conjunto de datos.
+
+En conclusión, el modelo tiene un desempeño moderado en la detección de reseñas falsas, con una exactitud, precisión y recall alrededor del 66-67%. Esto implica que el modelo clasifica correctamente un porcentaje considerable de las muestras, pero también puede haber margen de mejora en la identificación de fake reviews.
+
+Link al video de GitHub:
+
+Link al video de Implementación:
 
 
