@@ -17,7 +17,7 @@ Fuentes de los métodos mencionados:
 SF-BiLSTM: https://inass.org/wp-content/uploads/2022/06/2022103141-2.pdf
 NBSVM: https://www.sciencedirect.com/science/article/pii/S0969698921003374
 
-## Ejecución Modelo SF-BiLSTM
+## Ejecución Modelo NBSVM
 Se inicia el procedimiento colocando las librerías necesarias para la ejecución 
 
 ![image](https://github.com/natalymogollon/Capstone---G11/assets/50871642/cb76f15e-2ad0-4096-91db-2c00ff5943a3)
