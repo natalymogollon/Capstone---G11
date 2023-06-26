@@ -67,7 +67,9 @@ En conclusión, el modelo tiene un desempeño moderado en la detección de rese�
 
 
 Link al video de GitHub:
+https://www.youtube.com/channel/UCKQPu85hfrEz4Fa3CJzdHYw
 
 Link al video de Implementación:
+https://www.youtube.com/channel/UCKQPu85hfrEz4Fa3CJzdHYw
 
 
