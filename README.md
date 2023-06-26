@@ -18,7 +18,13 @@ SF-BiLSTM: https://inass.org/wp-content/uploads/2022/06/2022103141-2.pdf
 NBSVM: https://www.sciencedirect.com/science/article/pii/S0969698921003374
 
 ## Ejecución Modelo SF-BiLSTM
-Se inicia el procedimiento colocando las librerías necesarias para la ejecución 
+El modelo SF-BiLSTM es una arquitectura de red neuronal utilizada para tareas de procesamiento del lenguaje natural, como la clasificación de texto. SF significa "Sentiment-Focused" (centrado en el sentimiento) y BiLSTM se refiere a Memoria de Corto y Largo Plazo Bidireccional.
+
+Este modelo es capaz de analizar el sentimiento o la emoción en un texto dado. Utiliza una estructura de red neuronal llamada LSTM, que es capaz de capturar información de contexto a largo plazo. La característica "bidireccional" significa que la red neuronal procesa la información tanto en el orden normal como en el orden inverso, lo que ayuda a capturar mejor las dependencias y relaciones entre las palabras en el texto.
+
+El modelo SF-BiLSTM se entrena con un conjunto de datos previamente etiquetados, donde cada ejemplo de texto está asociado con una etiqueta de sentimiento específica, como positivo, negativo o neutral. Durante el entrenamiento, la red neuronal aprende a reconocer patrones y características en el texto que indican el sentimiento asociado.
+
+# Se inicia el procedimiento colocando las librerías necesarias para la ejecución 
 
 ![image](https://github.com/natalymogollon/Capstone---G11/assets/50871642/9b2a49a4-b3c6-4e1a-a322-b2c9d452a35e)
 
