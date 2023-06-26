@@ -37,3 +37,25 @@ La idea de selección de NBSVM es utilizar el clasificador Naive Bayes para obte
 
 ![image](https://github.com/natalymogollon/Capstone---G11/assets/50871642/bae1aa76-91d1-4632-9482-df4875cb88ad)
 
+Se utilizan técnicas de preprocesamiento de texto que convierte los textos en una representación numérica de conteo de las palabras presentes en cada texto.Cuenta la frecuencia de las palabras en cada texto y las convierte en vectores de características.
+Estas tecnicas son CounVectorizer y TfidfTransformer.
+
+Luego del preprocesamiento, se encadenan múltiples etapas de procesamiento de datos y estimadores en un flujo de trabajo secuencial.
+En NBSVM, se utiliza un pipeline para combinar las etapas de preprocesamiento de texto (CountVectorizer, TfidfTransformer) y el clasificador SVM en una única secuencia de pasos.
+
+Finalmente los resultados obtenidos son:
+
+![image](https://github.com/natalymogollon/Capstone---G11/assets/50871642/3df0ce11-920c-4b9c-a2f2-7e5deac33cc3)
+
+La precisión del modelo es del 70.46%. Esto indica que alrededor del 70.46% de las predicciones realizadas por el modelo coinciden con las etiquetas reales de las reviews.
+
+El recall del modelo también es del 70.46%. Esto significa que el modelo ha identificado correctamente alrededor del 70.46% de las fake reviews presentes en el conjunto de prueba.
+
+El modelo ha detectado 549 fake reviews.
+
+En conclusión, el modelo NBSVM tiene una precisión y recall del 70.46% y ha detectado 549 fake reviews en total. 
+Estos resultados indican un rendimiento moderado en la detección de fake reviews, pero podría haber margen para mejorar el modelo y aumentar su precisión y recall si se ajustan los parámetros o se emplea una estrategia diferente.
+
+
+
+
